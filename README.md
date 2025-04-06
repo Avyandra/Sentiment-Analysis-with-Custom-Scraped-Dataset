@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-# Sentiment-Analysis-with-Custom-Scraped-Dataset-
-I built and trained my own sentiment analysis models on a custom dataset that was created via web-scraping, reddit scraping, pdf scraping and converting audio to text. This particular project conducted sentiment analysis on Tesla more specifically their FSD system but the code is very reusable and modular. Feel free to try it out.
-=======
 # Sentiment Analysis with a Custom-Built Dataset from Web, Audio & Documents
 
 ## 1. Project Overview
@@ -21,32 +17,43 @@ This project demonstrates an **end-to-end sentiment analysis pipeline**, focusin
 
 We designed custom scripts for each data source:
 
+<img width="329" alt="data_gathering_pipeline" src="https://github.com/user-attachments/assets/1728e847-2d95-4104-81a7-8873544c5b12" />
+
 ### • Web Scraping
 - **What**: Automated extraction of website content
 - **Tools**: `Selenium` for rendering dynamic content, `BeautifulSoup` for HTML parsing  
 - **Use Case**: News articles and blog posts
 
-*Placeholder: [Data sources pipeline diagram]*  
-*Placeholder: [Selenium + BeautifulSoup architecture diagram]*
+<img width="614" alt="web_scraping_1" src="https://github.com/user-attachments/assets/16270ed7-5dd5-4415-a0aa-234d4ece6eef" />
+<img width="313" alt="web_scraping_pipeline" src="https://github.com/user-attachments/assets/d1965923-08d7-4c69-879f-a1541bc2a688" />
+
 
 ### • Reddit API
 - **What**: Extracting post content from Reddit
 - **Tools**: `PRAW` API  
 - **Use Case**: Topical opinions and informal discussions
 
+<img width="482" alt="reddit_scraping_1" src="https://github.com/user-attachments/assets/15010128-3b5e-4ab2-acb6-07ca267b5bcd" />
+
 ### • PDF Scraping
 - **What**: Extracting raw text from PDFs
 - **Tools**: `PDFMiner6`  
 - **Use Case**: Reports, whitepapers, and formal documents
 
+<img width="461" alt="pdf_scraping_1" src="https://github.com/user-attachments/assets/3f6e321d-7fae-4c08-b162-c416fdb4c0a7" />
+
 ### • Speech-to-Text
 - **What**: Transcribing audio to text
 - **Tools**: OpenAI's `Whisper`  
 - **Use Case**: Conversations, podcasts, and voice notes
+<img width="474" alt="whisper_1" src="https://github.com/user-attachments/assets/3d3d684d-085a-47b5-9e05-291aff838493" />
+<img width="602" alt="whisper_2" src="https://github.com/user-attachments/assets/cc0c419c-d3ae-4584-bd9b-010ad4f05521" />
 
 ---
 
 ## 3. Data Preprocessing
+
+<img width="281" alt="data_pre_processing" src="https://github.com/user-attachments/assets/9aa0f5de-a125-41bd-925d-3f497c29b68c" />
 
 ### a. Cleaning
 
@@ -60,7 +67,7 @@ Steps applied to all raw data:
 - Removed punctuation via regex and joined tokens
 - Trimmed whitespace
 
-*Placeholder: [Raw vs Cleaned CSV samples image]*
+<img width="934" alt="data_cleaning_1" src="https://github.com/user-attachments/assets/e503701b-fe60-4b74-ac4d-12692786a4ad" />
 
 ### b. Labeling
 
@@ -71,6 +78,8 @@ Steps applied to all raw data:
   - `Negative`
 - Final DataFrame contains: `raw_text`, `clean_text`, `sentiment`
 
+<img width="676" alt="final_df_1" src="https://github.com/user-attachments/assets/4befc08a-a85d-4016-b734-b2b7a00f0ab0" />
+
 ### c. TF-IDF & Feature Selection
 
 - Built a function to:
@@ -78,7 +87,7 @@ Steps applied to all raw data:
   - Encode labels with `LabelEncoder`
   - Apply **Chi-squared test** for relevant feature selection
 
-*Placeholder: [TF-IDF matrix snapshot]*
+<img width="898" alt="tfidf_and_ch2_demo" src="https://github.com/user-attachments/assets/b5d2082a-2540-4738-9807-018502319155" />
 
 ---
 
@@ -89,16 +98,28 @@ Trained and validated the following classifiers using `scikit-learn`:
 - **Logistic Regression**  
   - Multinomial, 70/30 train-test split  
   - Chosen for simplicity and interpretability
+    
+<img width="319" alt="Logistic_Regression_Confusion_Matrix" src="https://github.com/user-attachments/assets/6b56fe32-506c-42a6-92b7-0dcde9420d00" />
+<img width="500" alt="Logistic_Regression_Heatmap" src="https://github.com/user-attachments/assets/19c5fecc-33b3-4494-bdd2-28b538a2113b" />
 
 - **Multinomial Naive Bayes**  
   - Good baseline for text classification
+    
+<img width="319" alt="Naive_Bayes_Confusion_Matrix" src="https://github.com/user-attachments/assets/74565bfc-7e50-4535-baa4-68a83011a7bf" />
+<img width="499" alt="Naive_Bayes_Heatmap" src="https://github.com/user-attachments/assets/f68f778a-3bdf-46bb-9aea-aa8f991f4c96" />
 
 - **Random Forest**  
   - 100 estimators, handles non-linear patterns well
+    
+<img width="319" alt="Random_Forest_Confusion_Matrix" src="https://github.com/user-attachments/assets/8d4204ca-7d83-44bf-a73e-7abc1da88f76" />
+<img width="499" alt="Random_Forest_Heatmap" src="https://github.com/user-attachments/assets/2b8b3614-40f2-4e56-8f00-62ff8863dfe9" />
 
 - **Support Vector Machine (SVM)**  
   - Linear kernel, `decision_function_shape='ovr'`  
   - Good with high-dimensional sparse data (like TF-IDF)
+    
+<img width="320" alt="SVM_Confusion_Matrix" src="https://github.com/user-attachments/assets/9903c654-edac-47a6-9c53-26e4f76e6b0a" />
+<img width="499" alt="SVM_Heatmap" src="https://github.com/user-attachments/assets/af2706b3-4a44-4b60-ad17-e11c54cf12ee" />
 
 All models were tuned for **multiclass classification**.
 
@@ -113,8 +134,8 @@ Used a separate script to evaluate each model:
 
 **Tools**: `matplotlib`, `seaborn`
 
-*Placeholder: [Confusion matrix plots]*  
-*Placeholder: [Classification report snapshots]*
+<img width="479" alt="eval1" src="https://github.com/user-attachments/assets/e5cb74c2-c0d2-4b1f-81af-6ca24413b116" />
+<img width="476" alt="eval2" src="https://github.com/user-attachments/assets/775c85e8-96df-41ce-abb6-c70266cda128" />
 
 ---
 
@@ -129,20 +150,7 @@ Final script loads pickled models and compares performance:
   - Negative F1
 - Output: Bar chart comparison of all models
 
-*Placeholder: [Final model comparison chart]*
-
----
-
-## 7. Visuals
-
-*Image placeholders included throughout the repo:*
-
-- Data sources pipeline (smart art)
-- Web scraping architecture
-- Raw vs cleaned CSV comparison
-- TF-IDF matrix visual
-- Confusion matrices (for all models)
-- Final model comparison chart
+<img width="599" alt="All_Model_Comparison" src="https://github.com/user-attachments/assets/1856b007-7514-4a30-b3ff-cb17f6b1a7bc" />
 
 ---
 
