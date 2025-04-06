@@ -1,0 +1,292 @@
+Text
+0
+"For 6 months, my wife and I have used 9 or 10 versions of FSD Beta V10. Recently, we heard about Tesla working on a “revolutionary” upgrade from V10 to V11. This upgrade would incorporate big improvements that Tesla has been working on for a long time. Finally, we got our upgrade a little over a month ago. In a previous article, I reported on my first impressions. Here’s my report on what I have observed since then."
+"Yes, there have been significant improvements. For example, when working correctly, FSD Beta V11 moves you over and gets you into the correct turn lane earlier. The lane changes are also much smoother. You also get a wider blue pathway center line that lets you know that FSD Beta is active, as shown in Figure 1 above. You still have the option of using FSD only on limited-access highways, which gives you a narrower blue center line, or only using Autosteer, which gives you two very narrow blue lines on each side of the lane."
+"However, still too frequently, FSD Beta puts you in the wrong lane. The worst is when it puts you into a turn lane when the navigation calls for going straight. This, to me, is the biggest failure of the current system."
+"Also, I still observe phantom braking: This occurs infrequently, and I don’t regard this as a deal-breaker. I keep my foot resting very gently on the accelerator and I block the deceleration if it is strong or if a car is following closely behind me."
+"Tesla has huge teams of software specialists working on these problems. Yet, I’ve seen no improvement on these two items in the 10 versions of the software I have used. My take: They don’t have a clue how to fix them! Alternatively, improvements in the generalized neural net approach Tesla is using don’t address these problems."
+"The wrong-lane problem — a solution? They could use a map-based solution if Musk was willing. However, he appears to be convinced that Tesla software should deal with these issues on an ad hoc basis just like a human driver does."
+"Phantom braking solution? Others have observed a reduction in phantom braking. However, making the 269-mile journey north from Saint George to Lindon, Utah, on I-15 recently, I observed the worst phantom braking I’ve ever seen. I observed quite strong phantom braking that occurred repeatedly (at least 10 times) during a short stretch of the trip. Since then I have observed phantom braking, but not frequently."
+"My 2018 Nissan Leaf with smart cruise had no problem with phantom braking. However, my Leaf was not programmed to see cars, pedestrians, or objects in my path and avoid them. It seems that the FSD Beta system has difficulty telling the difference between phantoms and legitimate dangers. I have no idea how you would fix this."
+Wrong lane/failure to follow the navigation:
+"Roundabouts/rotaries: If you don’t have FSD Beta, but only the standard Automatic Steering Assist that comes with every Tesla, your car won’t make the sharp turns required in the rotary and will fail midway through. Up until the version of FSD Beta V10.20.2.4, my car would stop dead before entering the rotary but then negotiate the rotary properly. With the latest software updates, my car will treat the rotary properly, like a yield sign, if no cars are approaching you, and will continue to navigate correctly through the rotary. I have experimented with rotaries several times with V11.3.6. The behavior was correct most of the time. However, sometimes my car would just come to a dead stop in the middle of the rotary. Not good."
+"Timid behavior at stop signs: FSD Beta behavior at stop signs is always a little too slow for a normal driver and is, particularly, too slow for that car behind you. When merging onto a busy street, you can always do better by making the turn manually or at least giving it help with the accelerator pedal."
+CleanTechnica's Comment Policy
+"Arthur Frederick (Fritz) Hasler, PhD, former leader of NASA Goddard Space Flight Center Scientific Visualization & Analysis Laboratory (creator of this iconic image), and avid CleanTechnica reader. Also: Research Meteorologist (Emeritus) at NASA GSFC,
+Adjunct Professor at Viterbo University On-Line Studies,
+PSIA L2 Certified Alpine Ski Instructor at Brighton Utah Ski School."
+"Arthur Frederick (Fritz) Hasler has 155 posts and counting.
+							
+								See all posts by Arthur Frederick (Fritz) Hasler"
+0
+"I have just finished my free, 1-month test of Tesla’s Full Self-Driving Capability in April/May 2024. I bought my first Tesla Model S in 2017 and traded up to a Long-Range Model S late in 2023 when they kept throwing incentives my way. I love driving the Model S both because of the potential environmental impacts, but also because it is a wonderful performance car. I drive on interstates, other 4-lane roads and on city streets, so I do different types of driving and I think that the Model S excels in all modes.
+My original Model S had adaptive cruise control, and at the time, I thought that this was the best safety feature ever for driving on interstates, especially in and around cities. It also had Autosteer, although it did not always work that well. Nonetheless, good safety features and I thought that the current version of both adaptive cruise control and Autosteer worked well. The only problem I had with autosteer was on a 4-lane road that had a crown in the middle, so that the mechanism would shut off in the uneven left lane.
+I very explicitly used FSD exclusively at times, on all types of roads, with no manual intervention. Overall, driving in FSD with the navigation system set to a specific address was a wonder to behold. The car turns by itself, even onto interstate on/off ramps, accelerates carefully into traffic and adjusts speeds when needed. As it transitions from interstate to city roads, it follows the new speed limits exactly. The parking feature is cool, when needed, and from a lab, proof-of-concept idea, FSD would seem to be a great feature. But,…
+Overall, I developed a strong dislike of the system. It most reminded me of being driven by a teen-aged driver, who had just received their learner’s permit and had a parent in the front seat. I used the system for virtually all driving, from crowded city streets to wide-open 4-lane country roads and felt that it wasn’t driving like real people. Getting into traffic from a parking lot or when making routine turns, the car would sit there until no cars or pedestrians were in sight. Sometimes the wait would be excessive, by virtually anyone’s standards, and it was very frustrating. It would accelerate smoothly to the speed limit—it would be a poster child for traffic police, but unnatural in the real world.
+Worst of all, it didn’t always work. In driving into a major population area in the Midwest on an interstate, it shut off 3 separate times on a specific road. This road had been improved by replacing degraded surfaces with sections that were separated to allow for expansion and contraction. Very useful for weather in late winter/early spring and the road has remained intact for some years. But FSD didn’t like the bumps between sections and shut down. Keep your hands on the wheel when the car is no longer on auto at 70 mph!
+I found driving in FSD mode in the city to be unnatural. It was too perfect and also too methodical—as if performed by a computer! If you live in places like Chicago or Boston, you will not be a “favorite” of other drivers. I concluded that I wouldn’t want to share the road with vehicles with no driver that used the FSD capability, like a robotaxi. If we do allow such vehicles, we will have to build separate lanes or even separate roads to accommodate the different types of driving. Hopefully, some of these faults will improve as AI improves, but it is certainly not ready for prime time at the moment.
+Anyone else give the FSD a try? I’d like to read other opinions."
+"I've been using it in various iterations since 2017 much like you. It has gotten so much better than it was, but just the same I have told people it is similar to a brand new driver. When I use it (which is from time to time), I always have to have my foot near the accelerator to nudge it to go when it's taking too long to be comfortable.
+It is so much better than in 2017 (it had trouble staying within the road lines on curvy roads haha), but it does have quite a ways to go. Hopefully the new training supercomputer they have speeds up that timeline from previous seven years... It's very close to a point where it can be safely transport you from A to B with no issues (although not WELL, it is safe enough - almost too much at times). To be honest I never expected SAE Level 5 (which is includes ALL environments, even driving in snowstorms, most PEOPLE can't even do that haha). I'd be satisfied with Level 3 personally.
+Remember that the qualification they gave is that it'd be safer than the average driver, then think of how bad the average driver is out there, and it's not a high bar to exceed"
+"It attempts to push everyone to the center of the bell curve. Bottom x percent of drivers will think its great, top x percent of drivers will think its terrible.
+Zero change management from Tesla doesn't help. Everyone is out there figuring out the workarounds on their own.
+For me, it doesn't maintain the set speed, doesn't maintain proper following distances, and is inconsistent in it's decision making. Even with a new driver, you quickly learn if they trend towards a scared driver or an aggressive driver. FSD is a bit of both and you never know what you're going to get."
+"LouS said:
+Anyone else give the FSD a try? I’d like to read other opinions.
+Click to expand...
+There are tons of threads about that in this forum and elsewhere, so plenty of opinions out there to read."
+"LouS said:
+—as if performed by a computer!
+Click to expand...
+well, that's exactly what it is... were you expecting something else?"
+"I'm relieved that my M3 FSB trial finally expired; I didn't feel safe using it. It would change lanes for no apparent reason, cut corners, misread lights, randomly disengage, slow down aggressively and accelerate laxidasicaly, and beep at me from time to time for reasons I know not what. I can't believe people pay for this stuff. If this is the future of Tesla Taxi, count me out."
+"lkstaack said:
+I'm relieved that my M3 FSB trial finally expired; I didn't feel safe using it. It would change lanes for no apparent reason, cut corners, misread lights, randomly disengage, slow down aggressively and accelerate laxidasicaly, and beep at me from time to time for reasons I know not what. I can't believe people pay for this stuff. If this is the future of Tesla Taxi, count me out.
+Click to expand...
+I have to agree!  While I was initially impressed by the technology of the vehicle being able to ""read"" the traffic scene. I found the number of lane changes a bit aggressive, like a teenager trying to impress his girlfriend.  To the point that it would likely catch the attention of highway patrol.  I haven't changed lanes like that for 40 years.  If you live in a major metropolitan area like NY, Chicago, FL, or LA then you see the aggressive driving all day long.
+Every lane change is another opportunity for an accident, with drivers behind you doing 1.5x the speed limit.
+Not sure if the 360-degree cameras on Tesla can capture and process the tool who is ten car lengths behind you passing and cutting off cars at 90+ mph.  No thank you, I'm not risking having FSD to make those lane changes for me."
+"LouS said:
+I have just finished my free, 1-month test of Tesla’s Full Self-Driving Capability in April/May 2024. I bought my first Tesla Model S in 2017 and traded up to a Long-Range Model S late in 2023 when they kept throwing incentives my way. I love driving the Model S both because of the potential environmental impacts, but also because it is a wonderful performance car. I drive on interstates, other 4-lane roads and on city streets, so I do different types of driving and I think that the Model S excels in all modes.
+My original Model S had adaptive cruise control, and at the time, I thought that this was the best safety feature ever for driving on interstates, especially in and around cities. It also had Autosteer, although it did not always work that well. Nonetheless, good safety features and I thought that the current version of both adaptive cruise control and Autosteer worked well. The only problem I had with autosteer was on a 4-lane road that had a crown in the middle, so that the mechanism would shut off in the uneven left lane.
+I very explicitly used FSD exclusively at times, on all types of roads, with no manual intervention. Overall, driving in FSD with the navigation system set to a specific address was a wonder to behold. The car turns by itself, even onto interstate on/off ramps, accelerates carefully into traffic and adjusts speeds when needed. As it transitions from interstate to city roads, it follows the new speed limits exactly. The parking feature is cool, when needed, and from a lab, proof-of-concept idea, FSD would seem to be a great feature. But,…
+Overall, I developed a strong dislike of the system. It most reminded me of being driven by a teen-aged driver, who had just received their learner’s permit and had a parent in the front seat. I used the system for virtually all driving, from crowded city streets to wide-open 4-lane country roads and felt that it wasn’t driving like real people. Getting into traffic from a parking lot or when making routine turns, the car would sit there until no cars or pedestrians were in sight. Sometimes the wait would be excessive, by virtually anyone’s standards, and it was very frustrating. It would accelerate smoothly to the speed limit—it would be a poster child for traffic police, but unnatural in the real world.
+Worst of all, it didn’t always work. In driving into a major population area in the Midwest on an interstate, it shut off 3 separate times on a specific road. This road had been improved by replacing degraded surfaces with sections that were separated to allow for expansion and contraction. Very useful for weather in late winter/early spring and the road has remained intact for some years. But FSD didn’t like the bumps between sections and shut down. Keep your hands on the wheel when the car is no longer on auto at 70 mph!
+I found driving in FSD mode in the city to be unnatural. It was too perfect and also too methodical—as if performed by a computer! If you live in places like Chicago or Boston, you will not be a “favorite” of other drivers. I concluded that I wouldn’t want to share the road with vehicles with no driver that used the FSD capability, like a robotaxi. If we do allow such vehicles, we will have to build separate lanes or even separate roads to accommodate the different types of driving. Hopefully, some of these faults will improve as AI improves, but it is certainly not ready for prime time at the moment.
+Anyone else give the FSD a try? I’d like to read other opinions.
+Click to expand...
+Having grown into it from its earliest iterations I appreciate it much more but I understand those that have had it for only a month will have a different take and experience.   It takes getting used tp and since V12, I rarely drive without it.  My very best experience with it was when I used it as my designated driver late one night.
+I would suggest anyone give it more than a month.  It takes more than that to reach a confidence level that keeps you from unnecessary disengagements.
+I'm looking forward to 12.5 and other future improvements.  However, if 12.3.6 was as far as it went, I would be satisfied.  I wish to stay engaged when driving and am worried that the complacency of FSD might make me forgetful when driving our other Tesla without it.  Certainly for those of us advanced in years, it may be necessary one day.  I remember how not being able to drive affected my Dad.
+As to other drivers, it's time they weren't able to think and act like cowboys on the road and have more patience or take more time for the privilege of getting around.  There is precious cargo on the road and it's time we all grew up to our collective responsibility on the road.  It's not an amusement park.  FSD will help balance out the extremes, of too cautious and slow and too careless and fast.   Boring perhaps but safer.
+If eventually it's like taking a bus or train, well then, we may enjoy the drive more, especially Long trips.  Maybe I've said too much.   Happy Trails."
+0
+"My car has been in the shop for like 10 days and counting so far.  See this thread as to why:
+2022 MYP GPS stuck, no cameras, cannot sleep
+So thankfully, I got a loaner.  But the great news is, it's got FSD 11.4.4!  This is the first time I have experienced FSD on top of the regular Autopilot ""autosteer"".  I already really like autosteer, but this FSD really takes it to another level.  Here are my observations:
+Speed and distance control:  just like the autosteer function, this works really well.  You can set it to drive x% over the speed limit or an actual number (like drive 10 mph over whatever the speed limit is).  I set mine to 10% over the speed limit.  So if limit is 30 mph, it would go 33 mph.  But the good news is, you can still press on the accelerator to override that and take your foot off to return to your preset limit.  So by default, you can set it to drive slowly and you can override it whenever you want to and then it will return to that preset.
+Works great day or night.  Works in the rain also but less effectively (asks you to jiggle the steering wheel more often).
+The ""eye in the sky"" - the interior camera looks at a couple of things (see list below I gathered from our forum).   When I played around with it, it actually does work.  I.e. - if I am pretending to be looking at my phone, it asks me to jiggle the steering wheel a lot more often.  Ditto if I'm playing around with the touch screen and looking away.
+BLINDED
+DARK
+EYES_CLOSED
+EYES_DOWN
+EYES_NOMINAL
+EYES_UP
+HEAD_DOWN
+HEAD_TRUNC
+LOOKING_LEFT
+LOOKING_RIGHT
+PHONE_USE
+SUNGLASSES_EYES_LIKELY_NOMINAL
+SUNGLASSES_LIKELY_EYES_DOWN
+Late turn signals:  I wish it would apply the turn signal a little earlier.  Or maybe, there should be an option to make it come sooner and later.
+It actually stops for stop signs; it doesn't crawl through it.  It doesn't know that if you live in the neighborhood, the stop signs are more like ""recommendations"" (just joking).  And while you can slowly roll through it, of course, you still need to keep an eye out for cars, bikes, kids, neighbors and pets.  From a stop light, the acceleration is jerky and not smooth.  Of course, if you put it into ""chill"" mode, it takes care of that.  But the car shouldn't have to treat the go pedal like an on/off switch.  It should gently press on it like a human would.
+Tentative turning into busy streets - it acts like a nervous teenager when turning into busy streets.  Sometimes it jerks the steering wildly when it hesitates when seeing oncoming traffic.
+The cameras all around the car can see a lot more of what's going on that you every could...unless you have eyes on the back of your head and above your ears.  If cars are approaching you at a very high rate of speed from behind, it actually senses this and moves you away from the danger.  This actually seems to work outside of FSD.
+I LOVE that I can initiate the Nav by saying ""Navigate to Starbucks"" and it actually drives me there!  Yes, it asks me to jiggle the steering wheel every so often.  But despite that, it lowers the stress of driving significantly.  I actually love to drive, but I love gadgets even more.  And this stuff is great.
+It's certainly NOT ready for prime time.  BUT, this is the best ""driver assist"" that I've ever driven (better than Mercedes, GM's Super Cruise, Ford's Blue Cruise, the Hyundai variants, Volvo and Audi/VW).  The reason I say it's not ready for prime time is because Tesla advertises it as ""full self driving"".  If they actually called it driver assist, it would STILL be the best compared to anything else out there.  Consumer Reports actually ranked GM's the ""best"" since it's truly ""hands free"".  BUT, it's ONLY good for a limited amount of highways pre-marked by GM.  So that's stupid.  Even the Mercedes one, which is the first ""true"" level 3 is such a joke since there are soooo many pre-requisites: only works during daylight, there must be a car in front of you, clear road markings, clear weather only (no rain), only for highways marked by Mercedes, and get this... only UNDER 40 mph.  That's just ridiculous.  The Tesla works everywhere that I've tested: intown and highway.  Of course, it works much better on the highway.
+So would I pay the $12k for it?  Hell no.  That's a ripoff.  If your car gets totaled, Tesla no longer will let you ""transfer"" that to your new car.  That's ridiculous.  But would I pay the $200/month for it?  I would do that but only when I would need it for long driving or vacation driving.  Otherwise, the standard Autopilot is good enough for day to day driving."
+Thanks. I too feel the $12K price tag is too high & at $200 per month I’d only get it occasionally.
+"theclutch said:
+I LOVE that I can initiate the Nav by saying ""Navigate to Starbucks"" and it actually drives me there!  Yes, it asks me to jiggle the steering wheel every so often.  But despite that, it lowers the stress of driving significantly.  I actually love to drive, but I love gadgets even more.  And this stuff is great.
+Click to expand...
+Nice review thanks.  Always great to see someone try FSD for the first time.   Sometimes because I've been testing FSD for over 2 years I am overly critical.
+By the way you don't need to say ""navigate"" or ""drive to"" with a destination name.  Just say ""Starbucks"" ."
+"theclutch said:
+But the good news is, you can still press on the accelerator to override that and take your foot off to return to your preset limit. So by default, you can set it to drive slowly and you can override it whenever you want to and then it will return to that preset.
+Click to expand...
+True. But also be keenly aware it will not slow or stop if you press the electron pedal."
+"KArnold said:
+True. But also be keenly aware it will not slow or stop if you press the electron pedal.
+Click to expand...
+Well, of course.  If you're pressing on the ""electron pedal"" (love that, btw!), it's thinking ""he's got this"" and will relinquish the braking."
+I find the $200 worth it. And I like using it when I’m reading my emails.
+"theclutch said:
+Well, of course.  If you're pressing on the ""electron pedal"" (love that, btw!), it's thinking ""he's got this"" and will relinquish the braking.
+Click to expand...
+I think the warning was ""Don't forget you are in FSDb so it will not slow below the preset speed, nor stop if you stop pressing the electron pedal.""
+(Another different confusion is being dumped out of FSDb and taking over steering and lane changes but, after a while forgetting you are no longer in FSDb because TACC is still working so the car is moving without pressing the electron pedal. Again, the car will not slow or stop, in this case for stop signs or traffic lights.)"
+"Thanks for this analysis, appreciated. However, my car already has FSD Beta 11.4.7.3 on 2023.27.7. So, it sounds like my version would be a more recent release than 11.4.4?  Oh, and my car's FSD is really terrible on anything but controlled access highways, so that's maybe another data point. Also, because we bought EAP, our car stops for stop signs and traffic signals even when just running TACC."
+"100d said:
+I find the $200 worth it. And I like using it when I’m reading my emails.
+Click to expand...
+How do you manage that without getting strikes? Is yours an older model without the interior camera?"
+"GrayGhost6 said:
+How do you manage that without getting strikes? Is yours an older model without the interior camera?
+Click to expand...
+You only get strikes if you don't jiggle the steering wheel when it asks you to do so.  If you're reading emails (and I've tried this), it will ask you more often."
+"theclutch said:
+You only get strikes if you don't jiggle the steering wheel when it asks you to do so.  If you're reading emails (and I've tried this), it will ask you more often.
+Click to expand...
+Interesting. I thought it would give you a strike regardless if it sees you looking at your phone for long enough, didn't realize it would just make you grab the wheel more often."
+"GrayGhost6 said:
+How do you manage that without getting strikes? Is yours an older model without the interior camera?
+Click to expand...
+Yup. No interior camera."
+"I just bought a MYLR and got 3 months free FSD using a referral code. Did my first trip with FSD enabled today, 24 miles/45 minutes of suburbs, city and highway. It was pretty amazing, but not perfect. Some funny hesitations, but the right amount of assertiveness for lane changes, merging, speed control and at stop lights. It was unnerving to let the car move across 3 lanes of lanes in traffic from rightmost lane to a left turn, but FSD handled it well and without being unreasonable with other cars. It‘s not worth $12K or $199/mo to me when the trial ends, but it’s shockingly good."
+"theclutch said:
+Consumer Reports actually ranked GM's the ""best"" since it's truly ""hands free"".  BUT, it's ONLY good for a limited amount of highways pre-marked by GM.  So that's stupid.
+Click to expand...
+I wouldn’t call GM’s Super Cruise stupid.  It does exactly what it’s designed to do...and at least it’s truly “hands free” because do you know what actually is “stupid”?  The fact that Tesla’s system requires you to continually yank the wheel, incessantly, in 2023…like a cave man.  Even our BMW X3 doesn’t require you to yank the wheel…it actually watches your eyes and has a capacitive sensor in the steering wheel."
+"theclutch said:
+My car has been in the shop for like 10 days and counting so far.  See this thread as to why:
+2022 MYP GPS stuck, no cameras, cannot sleep
+So thankfully, I got a loaner.  But the great news is, it's got FSD 11.4.4!  This is the first time I have experienced FSD on top of the regular Autopilot ""autosteer"".  I already really like autosteer, but this FSD really takes it to another level.  Here are my observations:
+Speed and distance control:  just like the autosteer function, this works really well.  You can set it to drive x% over the speed limit or an actual number (like drive 10 mph over whatever the speed limit is).  I set mine to 10% over the speed limit.  So if limit is 30 mph, it would go 33 mph.  But the good news is, you can still press on the accelerator to override that and take your foot off to return to your preset limit.  So by default, you can set it to drive slowly and you can override it whenever you want to and then it will return to that preset.
+Works great day or night.  Works in the rain also but less effectively (asks you to jiggle the steering wheel more often).
+The ""eye in the sky"" - the interior camera looks at a couple of things (see list below I gathered from our forum).   When I played around with it, it actually does work.  I.e. - if I am pretending to be looking at my phone, it asks me to jiggle the steering wheel a lot more often.  Ditto if I'm playing around with the touch screen and looking away.
+BLINDED
+DARK
+EYES_CLOSED
+EYES_DOWN
+EYES_NOMINAL
+EYES_UP
+HEAD_DOWN
+HEAD_TRUNC
+LOOKING_LEFT
+LOOKING_RIGHT
+PHONE_USE
+SUNGLASSES_EYES_LIKELY_NOMINAL
+SUNGLASSES_LIKELY_EYES_DOWN
+Late turn signals:  I wish it would apply the turn signal a little earlier.  Or maybe, there should be an option to make it come sooner and later.
+It actually stops for stop signs; it doesn't crawl through it.  It doesn't know that if you live in the neighborhood, the stop signs are more like ""recommendations"" (just joking).  And while you can slowly roll through it, of course, you still need to keep an eye out for cars, bikes, kids, neighbors and pets.  From a stop light, the acceleration is jerky and not smooth.  Of course, if you put it into ""chill"" mode, it takes care of that.  But the car shouldn't have to treat the go pedal like an on/off switch.  It should gently press on it like a human would.
+Tentative turning into busy streets - it acts like a nervous teenager when turning into busy streets.  Sometimes it jerks the steering wildly when it hesitates when seeing oncoming traffic.
+The cameras all around the car can see a lot more of what's going on that you every could...unless you have eyes on the back of your head and above your ears.  If cars are approaching you at a very high rate of speed from behind, it actually senses this and moves you away from the danger.  This actually seems to work outside of FSD.
+I LOVE that I can initiate the Nav by saying ""Navigate to Starbucks"" and it actually drives me there!  Yes, it asks me to jiggle the steering wheel every so often.  But despite that, it lowers the stress of driving significantly.  I actually love to drive, but I love gadgets even more.  And this stuff is great.
+It's certainly NOT ready for prime time.  BUT, this is the best ""driver assist"" that I've ever driven (better than Mercedes, GM's Super Cruise, Ford's Blue Cruise, the Hyundai variants, Volvo and Audi/VW).  The reason I say it's not ready for prime time is because Tesla advertises it as ""full self driving"".  If they actually called it driver assist, it would STILL be the best compared to anything else out there.  Consumer Reports actually ranked GM's the ""best"" since it's truly ""hands free"".  BUT, it's ONLY good for a limited amount of highways pre-marked by GM.  So that's stupid.  Even the Mercedes one, which is the first ""true"" level 3 is such a joke since there are soooo many pre-requisites: only works during daylight, there must be a car in front of you, clear road markings, clear weather only (no rain), only for highways marked by Mercedes, and get this... only UNDER 40 mph.  That's just ridiculous.  The Tesla works everywhere that I've tested: intown and highway.  Of course, it works much better on the highway.
+So would I pay the $12k for it?  Hell no.  That's a ripoff.  If your car gets totaled, Tesla no longer will let you ""transfer"" that to your new car.  That's ridiculous.  But would I pay the $200/month for it?  I would do that but only when I would need it for long driving or vacation driving.  Otherwise, the standard Autopilot is good enough for day to day driving.
+View attachment 993130
+Click to expand...
+I would rate autopilot as 80% self driving."
+"PABresler said:
+I would rate autopilot as 80% self driving.
+Click to expand...
+More like 10%. I’ve only used FSD four times so far, and it’s astonishing how many decisions the software has to make!"
+"100d said:
+I find the $200 worth it. And I like using it when I’m reading my emails.
+Click to expand...
+I'm of the opinion that it is a lottery ticket.
+If Elon's promise / prediction that FSD will come true and I will be able to send it out to join the robotaxi fleet and earn me money, comes true - then it is worth a lot, maybe $100,000 or more.
+In its present state, it really isn't useful for anything and has the value of a lottery ticket that hasn't been drawn yet.  ($3.00 for a power play.)
+It's an interesting example, because the future value isn't really known, but maximum surely isn't more than $100,000 which is a little low for a lottery ticket and $12,000 or $15,000 is very expensive for a lottery ticket.
+On the other hand, Elon has a history of being late on predictions, but spectacularly over-delivering on eventual results - so much so, that the odds of a winning draw are near 100%, and for all holders of a ticket!  I don't regularly buy lottery tickets, but if you never buy one, you can't possibly win, so if I get an urge, I'll get one every few years and this is mine for the 2020's."
+"legendsk said:
+I'm of the opinion that it is a lottery ticket.
+If Elon's promise / prediction that FSD will come true and I will be able to send it out to join the robotaxi fleet and earn me money, comes true - then it is worth a lot, maybe $100,000 or more.
+In its present state, it really isn't useful for anything and has the value of a lottery ticket that hasn't been drawn yet.  ($3.00 for a power play.)
+It's an interesting example, because the future value isn't really known, but maximum surely isn't more than $100,000 which is a little low for a lottery ticket and $12,000 or $15,000 is very expensive for a lottery ticket.
+On the other hand, Elon has a history of being late on predictions, but spectacularly over-delivering on eventual results - so much so, that the odds of a winning draw are near 100%, and for all holders of a ticket!  I don't regularly buy lottery tickets, but if you never buy one, you can't possibly win, so if I get an urge, I'll get one every few years and this is mine for the 2020's.
+Click to expand...
+So…you’re paying the monthly fee. Or you’re not?"
+"100d said:
+So…you’re paying the monthly fee. Or you’re not?
+Click to expand...
+Of course not.  I bought it as a lottery ticket.  Currently I believe it's not worth much at all, because it really isn't usable and each of the last 5 or so updates have made it worse, not better.
+Once it works, and I still believe it will, then it will be well worth more than $200 per month, but there is no guarantee that it will still be available at $200 per month.
+So presently I would not give $1 per month for it, because at the end of the month, I haven't gotten $1 worth of value for it and it expired at the end of the month and has no future value.
+If there were a guarantee that if you subscribe for $200 per month now, the price is locked in and it will be available permanently at that price, then I would buy it.  But if you don't subscribe now, then there is no guarantee the you can in the future?  Buying it for $15,000 is a hedge in case the subscription price could be $5,000 or ??? per month in the future.
+And there is the interesting possible future that Optimus will surely be able to drive it? But is that without FSD?  Maybe it will also be an Optimus option, like it is on a car of truck. I will likely want an Optimus, so. . . . .?"
+"Does Tesla have the reputation of raising monthly fees to current subscribers? I’m kind of counting on that not happening.
+I have found it useful for the few times I have used it although it is nnot perfect and phantom stops is true."
+0
+The social media posting Trump did this week mocking all the federal employees Musk just fired finally pushed me over the edge. I’m replacing my 2020 M3. What I have discovered in the process is that FSD is apparently worthless. Car dealers will not consider what we paid thousands extra for in determining trade in value. The internet based sites do not consider FSD when determining a value. Neither does Tesla. Has anyone had experience with a private sale? Does FSD have value there?
+"Lots of conversations about this topic.
+It's a free market, so find someone who values FSD and sell to them."
+"After a car is totaled people fight with insurance companies about the value of FSD and almost always lose, so that should tell you something. As
+@Dewg
+noted, some people value FSD while others do not."
+"ATPMSD said:
+After a car is totaled people fight with insurance companies about the value of FSD and almost always lose, so that should tell you something. As
+@Dewg
+noted, some people value FSD while others do not.
+Click to expand...
+This is not correct. I paid $12K for FSD. My car was totaled after 20 month. Insurance paid me $10K for FSD."
+"rlsd said:
+This is not correct. I paid $12K for FSD. My car was totaled after 20 month. Insurance paid me $10K for FSD.
+Click to expand...
+I am glad you got extra for your FSD, but there are many posts of people who did not. For the rest of us, who was your insurance carrier?"
+"Another click bate posting headline.
+When my X was totaled the insurance determined value by looking at internet equilivent Model Xs for sale, with similar equipment. Essentially got my $ back for having FSD.
+Dealerships do not offer $ for FSD as they know that Tesla will erase it upon the 2rd sale (only transfers once)
+For private parties, many search for cars with FSD, knowing they can purchase it that way at a discount.
+Why would you foolishly sell your Tesla because you disagree with what Elon is doing in his spare time?
+Don't fall for the crap the liberal media is screaming about him."
+"Unclepaul said:
+Don't fall for the crap the liberal media is screaming about him.
+Click to expand...
+So sad that it is almost funny."
+"ATPMSD said:
+I am glad you got extra for your FSD, but there are many posts of people who did not. For the rest of us, who was your insurance carrier?
+Click to expand...
+See here:
+FSD v12.x (end to end AI)
+We bought FSD for $6K when we bought Nick (see sig), and we subscribe for Tessie. I calculated that subscribing is smarter for us.  That calculation changes based on  Will they do a free HW4 upgrade? If so, when will they do it? How important is the FSD improvement to you?  And, of course, if...
+teslamotorsclub.com"
+"Maybe a more accurate way to look at FSD. It’s like an alarm clock that you have to stay away to make sure it goes off at the right time. You can’t go to sleep (the real goal) without paying attention to it. And when it does go off (while you’re watching) Elon will claim it works great!
+We’ve been watching this clock for years."
+"My suggestion:
+1. Turn the TV off.
+2. Go outside, take in some fresh air.
+3. Recognize that the world is not the panicked sh*tshow that the news wants you to believe.
+4. Whether the political trench you've dug yourself in is left or right of center, both sides do awful, immoral, nonsensical things. Both sides, at one point or another, has been just as much the villain as the other. So claiming one side or the other is not the moral high road you think it is.
+5. Try to come to the realization that it is crazy to base the decision for the car you drive on politics."
+"The answer to ""Is FSD really worthless?"" is..
+Its about as worthless as yet another new thread on ""Is FSD ...(X)?""
+(not a moderation note, posted as a regular member)."
+"When I picked up a used car from Tesla I estimated they bumped prices by a couple thousand for FSD cars.
+So not nothing but very very minimal compared to the cost to buy it outright.
+80%+ depreciation on the FSD license itself seems plausible."
+"I'd imagine a lot depends on whether or not FSD reaches level 3.  If it does, and if a car has FSD and HW4 or higher, I'd pay extra to have it in my car.  I'd also think that once FSD does reach level 3 the $99/month rent to use it will be raised, perhaps significantly.  I also think that since Tesla plans to launch their taxi service in June they have a good reason to expect that level 3 autonomy will be in place by then.
+So, if the above happens I'd expect some value to FSD installed cars regardless of how they're viewed now"
+"There is no worth to objects except for what value it has to an individual.  If someone doesn't value FSD, then it's not worth anything - TO THEM.  It doesn't not matter what it is or what it does - L2, L3, L4 - doesn't matter.  FSD is worthless unless someone thinks it's valuable.
+So be a salesman - and sell someone on its value - get them to WANT to have FSD, and then they'll pay for it.  This is why I always sell my cars private party.  I put $3000 in audio equipment in my car.  Dealerships don't care - they buy on Kelly Blue Book.  But a guy on Craigslist who is an audiophile will pay extra for that setup."
+"I bought my 2024 MY LR entirely because of FSD!  I know it is not prefect, but as I get older, (I'll be 80 next year) it will soon drive better than me!  In fact in some ways, it already does.  It certainly keeps centered in the lane better than I, It has 8 eyes to my two and does a much better lane changes, keeps me closer to speed limit, to name a few.
+I know I need to pay close attention and I do.  I also keep up at this site to know what to look out for.  But to be able to specify where I am going and let it get me there safely and with fewer upset drivers, city or highway, usually without any intervention until I reach my destination makes it already worth my $8K!
+So next time you are following some grumpy old man on his way to church (or to his doctor) at 20 mph wondering in the lane, just think how nice it would be if he had FSD.  Maybe it's your father trying to get his groceries and FSD may save you the trouble having to take him there every Sunday.
+So perhaps instead of destructive comments and threatening dump it, help us to make it better and encourage others, (maybe that grumpy old man) and let's help make it perfect or at least close to it.  Maybe some day it will prevent your father (or mother) from being killed or killing some else.
+Food for thought,
+Clark"
+"Todd Burch said:
+My suggestion:
+1. Turn the TV off.
+2. Go outside, take in some fresh air.
+3. Recognize that the world is not the panicked sh*tshow that the news wants you to believe.
+4. Whether the political trench you've dug yourself in is left or right of center, both sides do awful, immoral, nonsensical things. Both sides, at one point or another, has been just as much the villain as the other. So claiming one side or the other is not the moral high road you think it is.
+5. Try to come to the realization that it is crazy to base the decision for the car you drive on politics.
+Click to expand...
+I also think its incredibly stupid to not purchase a brand of car/beer/whatever you would otherwise enjoy due to politics but some people are just too emotionally invested.
+The fact is though, on the consumer end at least, there is no competitor to fsd. Blue cruise, super cruise, drive pilot are all a joke, only half passable on some random 10 mile stretch of freeway somewhere in america."
+When I was doing a trade in with Tesla they did consider FSD in the value.
+"In the past, studies showed it added about $1,000 to the price of a used car, however Tesla itself offers nothing on trade-in, because to them it is just a bit turned on your car. that enables it.     However, if your car is worth less than $25,000 -- and a large fraction of cars are in that range -- you have a problem with a private sale as there is no $4,000 tax credit on private sales, but dealer sales under $25K can qualify for it -- until they take it away.
+It would be nice if there were a dealer who you could go to after negotiating a private sale, and they would middleman the deal to your buyer, net $1K for themselves and let the buyer claim the credit, everybody wins (except the taxpayer.)"
+"bradtem said:
+It would be nice if there were…
+Click to expand...
+A savvy intermediary that makes it as easy as trading your keys and title for payment and that tax break."
+"Krash said:
+A savvy intermediary that makes it as easy as trading your keys and title for payment and that tax break.
+Click to expand...
+The tax break is issued on your tax return as a credit.  The buyer needs to meet certain income requirements, in particular income of no more than $150K (couple) or $75K (single.)    The credit is not refundable, you must have taxes to offset against it, but you can carry forward.     So that makes it hard for the intermediary to hand anybody the money.    The seller must be a dealer/reseller.     That's the part that an intermediary can fix.
+With the $7500 tax credit, that can be claimed by companies, and in particular leasing companies.   In fact, if you are over the income limit, the only way to get the credit is to have a leasing company buy the car, take the credit, lease it to you at the post-credit price, and then you can buy it at the end of the lease.    Thsi is worth doing, because even though leases are a modestly bad deal, and cost more than just buying, the $7500 credit, which you can't get otherwise, more than makes up for that.  I don't think that's possible with the $4K credit, but perhaps it is.   However, again one needs an intermediary as it must be a dealer, not a private sale."
+0
+"It has been several weeks since Tesla kicked off the roll-out of its latest FSD Beta update, and a few Beta testers shared their thoughts on v10.69.2. FSD Beta testers told Teslarati that v10.69.2 made noticeable improvements to FSD, but a few issues have lingered from 10.69.1."
+"After talking to quite a few FSD Beta testers about 10.69.1, a pattern started to emerge. Testers mentioned similar issues repeatedly. The top three mentioned by testers were phantom braking, issues with turns, and speed limit recognition."
+Lane selection issues seemed to be a prevalent one in FSD Beta 10.69.2. Multiple FSD Beta testers mentioned that their Tesla would take the turn lane on the road even if they intended to go straight.
+"“A major issue that I’ve had with this release has to do with lane selection. I find that sometimes, it’s going into an inappropriate lane. And sometimes it’s confused which lane to choose and bunks between a couple of lanes,” noted Dr. Sultan Rahaman, M.D."
+"“On one occasion, it was moving from the right lane into a right-turn-only lane. A lane that was going into a plaza that was just a right only. But it was driving down that lane at normal speed as if it believed that this lane was going straight through, and it was not, it was just a right turn lane. So I had to disengage because it seemed like it was identifying that right turn lane as just a regular lane going straight,” said Dr. Rahaman."
+Long-time Tesla FSD Beta tester Les also experienced issues with lane selection and turns with v10.69.2.
+"“After multiple test loops and drives, there’s really just one main problem remaining for me at this point on 10.69.2, it’s significant, and that is lane selection,” noted Les."
+"Les also pointed out two other issues with FSD Beta 10.69.2: multilane turns and opposing turns in close succession. He noted that midterm, his car crosses lanes on 50% of attempts."
+"Les also stated that his car was successful 50% of the time when taking succeeding turns in opposite directions. “If I have a right turn followed by a left (or vice versa), within a space of a half a block or less, the car at this point fails to get over in time or oddly moves in the opposite direction,” he noted."
+"Dr. Rahaman also mentioned some issues with turns. He noted seeing improvements with left turns, but he also highlighted that his vehicle would perform left turns a bit aggressively."
+"“There’s another left turn, however, that’s a simple left turn from just crossing two lanes of traffic into my community—which is an unprotected left turn. I don’t like how it does that. I find that it gets very close to the incoming traffic, and at one point, it seems like it was just hesitating. I think I had to disengage because it seemed like it was moving forward, and traffic was coming,” Dr. Rahaman noted."
+Tesla FSD Beta 10.69.2.2 is currently rolling out to more drivers. Plans are underway to roll out FSD Beta 10.69.2.3 shortly after AI Day 2 next week.
+"Les told Teslarati that there wasn’t any notable changes between 10.69.2, though there were still issues with lane selection. “If this lane selection problem can be solved, it will feel like a good step improvement for me,” he said."
+"Beta tester Neeraj noted that FSD maintains the posted speed limit even during inclement weather, like while it’s raining, and at night or on curvy roads. He noted that it gets a little unnerving when FSD does not slow down during those appropriate times. Neeraj also noted that his vehicle took long to turn in areas with no traffic lights."
+"Beta tester Howard also mentioned having trouble with turns since 10.69.2. “Turns at lights and stop signs way, way worse than 69.0!!!! Unusable in my area. Two times it almost caused an accident, once by stuttering and once by entering the opposing lane! Both times there was light traffic, 90-degree turn, good center, and fog lines, two lane road intersection another two lane road,” Howard told Teslarati."
+"Overall, testers seem impressed with v10.69 updates thus far. Most of the testers who spoke with Teslarati highlighted that v10.69 significantly improved FSD Beta. A lot of the beta testers stated that they drive more confidently through residential streets after FSD Beta 10.69."
+"However, a few did note that FSD might not be ready for a wider release by the end of the year. The main reason they believe FSD Beta isn’t ready for more drivers is because it still needs to be well-monitored."
+"“I still have to be cautious though. I would not want it in the hands of individuals who will not be alert and ready to take control at a moment’s notice,” one beta tester noted."
+Have you tried out FSD Beta 10.69.2.2? I’d like to hear from you! Contact me at maria@teslarati.com or via Twitter @Writer_01001101.

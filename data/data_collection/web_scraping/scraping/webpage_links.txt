@@ -1,0 +1,6 @@
+url: https://cleantechnica.com/2023/05/06/tesla-full-self-driving-beta-v11-5-week-review/ - done (basic)
+url: https://teslamotorsclub.com/tmc/threads/review-of-full-self-driving-fsd-in-a-2023-tesla-model-s.327549/ - done (find all bbWrapper around container)
+url: https://teslamotorsclub.com/tmc/threads/my-fsd-11-4-4-review.316063/ - done (similar to other tesla motor club)
+url: https://teslamotorsclub.com/tmc/threads/is-fsd-really-worthless.341659/ - done
+url: https://www.teslarati.com/tesla-fsd-beta-10-69-reviews-10-69-22-roll-out/ - done (basic)
+

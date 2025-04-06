@@ -1,0 +1,129 @@
+0
+"My car has been in the shop for like 10 days and counting so far.  See this thread as to why:
+2022 MYP GPS stuck, no cameras, cannot sleep
+So thankfully, I got a loaner.  But the great news is, it's got FSD 11.4.4!  This is the first time I have experienced FSD on top of the regular Autopilot ""autosteer"".  I already really like autosteer, but this FSD really takes it to another level.  Here are my observations:
+Speed and distance control:  just like the autosteer function, this works really well.  You can set it to drive x% over the speed limit or an actual number (like drive 10 mph over whatever the speed limit is).  I set mine to 10% over the speed limit.  So if limit is 30 mph, it would go 33 mph.  But the good news is, you can still press on the accelerator to override that and take your foot off to return to your preset limit.  So by default, you can set it to drive slowly and you can override it whenever you want to and then it will return to that preset.
+Works great day or night.  Works in the rain also but less effectively (asks you to jiggle the steering wheel more often).
+The ""eye in the sky"" - the interior camera looks at a couple of things (see list below I gathered from our forum).   When I played around with it, it actually does work.  I.e. - if I am pretending to be looking at my phone, it asks me to jiggle the steering wheel a lot more often.  Ditto if I'm playing around with the touch screen and looking away.
+BLINDED
+DARK
+EYES_CLOSED
+EYES_DOWN
+EYES_NOMINAL
+EYES_UP
+HEAD_DOWN
+HEAD_TRUNC
+LOOKING_LEFT
+LOOKING_RIGHT
+PHONE_USE
+SUNGLASSES_EYES_LIKELY_NOMINAL
+SUNGLASSES_LIKELY_EYES_DOWN
+Late turn signals:  I wish it would apply the turn signal a little earlier.  Or maybe, there should be an option to make it come sooner and later.
+It actually stops for stop signs; it doesn't crawl through it.  It doesn't know that if you live in the neighborhood, the stop signs are more like ""recommendations"" (just joking).  And while you can slowly roll through it, of course, you still need to keep an eye out for cars, bikes, kids, neighbors and pets.  From a stop light, the acceleration is jerky and not smooth.  Of course, if you put it into ""chill"" mode, it takes care of that.  But the car shouldn't have to treat the go pedal like an on/off switch.  It should gently press on it like a human would.
+Tentative turning into busy streets - it acts like a nervous teenager when turning into busy streets.  Sometimes it jerks the steering wildly when it hesitates when seeing oncoming traffic.
+The cameras all around the car can see a lot more of what's going on that you every could...unless you have eyes on the back of your head and above your ears.  If cars are approaching you at a very high rate of speed from behind, it actually senses this and moves you away from the danger.  This actually seems to work outside of FSD.
+I LOVE that I can initiate the Nav by saying ""Navigate to Starbucks"" and it actually drives me there!  Yes, it asks me to jiggle the steering wheel every so often.  But despite that, it lowers the stress of driving significantly.  I actually love to drive, but I love gadgets even more.  And this stuff is great.
+It's certainly NOT ready for prime time.  BUT, this is the best ""driver assist"" that I've ever driven (better than Mercedes, GM's Super Cruise, Ford's Blue Cruise, the Hyundai variants, Volvo and Audi/VW).  The reason I say it's not ready for prime time is because Tesla advertises it as ""full self driving"".  If they actually called it driver assist, it would STILL be the best compared to anything else out there.  Consumer Reports actually ranked GM's the ""best"" since it's truly ""hands free"".  BUT, it's ONLY good for a limited amount of highways pre-marked by GM.  So that's stupid.  Even the Mercedes one, which is the first ""true"" level 3 is such a joke since there are soooo many pre-requisites: only works during daylight, there must be a car in front of you, clear road markings, clear weather only (no rain), only for highways marked by Mercedes, and get this... only UNDER 40 mph.  That's just ridiculous.  The Tesla works everywhere that I've tested: intown and highway.  Of course, it works much better on the highway.
+So would I pay the $12k for it?  Hell no.  That's a ripoff.  If your car gets totaled, Tesla no longer will let you ""transfer"" that to your new car.  That's ridiculous.  But would I pay the $200/month for it?  I would do that but only when I would need it for long driving or vacation driving.  Otherwise, the standard Autopilot is good enough for day to day driving."
+Thanks. I too feel the $12K price tag is too high & at $200 per month I’d only get it occasionally.
+"theclutch said:
+I LOVE that I can initiate the Nav by saying ""Navigate to Starbucks"" and it actually drives me there!  Yes, it asks me to jiggle the steering wheel every so often.  But despite that, it lowers the stress of driving significantly.  I actually love to drive, but I love gadgets even more.  And this stuff is great.
+Click to expand...
+Nice review thanks.  Always great to see someone try FSD for the first time.   Sometimes because I've been testing FSD for over 2 years I am overly critical.
+By the way you don't need to say ""navigate"" or ""drive to"" with a destination name.  Just say ""Starbucks"" ."
+"theclutch said:
+But the good news is, you can still press on the accelerator to override that and take your foot off to return to your preset limit. So by default, you can set it to drive slowly and you can override it whenever you want to and then it will return to that preset.
+Click to expand...
+True. But also be keenly aware it will not slow or stop if you press the electron pedal."
+"KArnold said:
+True. But also be keenly aware it will not slow or stop if you press the electron pedal.
+Click to expand...
+Well, of course.  If you're pressing on the ""electron pedal"" (love that, btw!), it's thinking ""he's got this"" and will relinquish the braking."
+I find the $200 worth it. And I like using it when I’m reading my emails.
+"theclutch said:
+Well, of course.  If you're pressing on the ""electron pedal"" (love that, btw!), it's thinking ""he's got this"" and will relinquish the braking.
+Click to expand...
+I think the warning was ""Don't forget you are in FSDb so it will not slow below the preset speed, nor stop if you stop pressing the electron pedal.""
+(Another different confusion is being dumped out of FSDb and taking over steering and lane changes but, after a while forgetting you are no longer in FSDb because TACC is still working so the car is moving without pressing the electron pedal. Again, the car will not slow or stop, in this case for stop signs or traffic lights.)"
+"Thanks for this analysis, appreciated. However, my car already has FSD Beta 11.4.7.3 on 2023.27.7. So, it sounds like my version would be a more recent release than 11.4.4?  Oh, and my car's FSD is really terrible on anything but controlled access highways, so that's maybe another data point. Also, because we bought EAP, our car stops for stop signs and traffic signals even when just running TACC."
+"100d said:
+I find the $200 worth it. And I like using it when I’m reading my emails.
+Click to expand...
+How do you manage that without getting strikes? Is yours an older model without the interior camera?"
+"GrayGhost6 said:
+How do you manage that without getting strikes? Is yours an older model without the interior camera?
+Click to expand...
+You only get strikes if you don't jiggle the steering wheel when it asks you to do so.  If you're reading emails (and I've tried this), it will ask you more often."
+"theclutch said:
+You only get strikes if you don't jiggle the steering wheel when it asks you to do so.  If you're reading emails (and I've tried this), it will ask you more often.
+Click to expand...
+Interesting. I thought it would give you a strike regardless if it sees you looking at your phone for long enough, didn't realize it would just make you grab the wheel more often."
+"GrayGhost6 said:
+How do you manage that without getting strikes? Is yours an older model without the interior camera?
+Click to expand...
+Yup. No interior camera."
+"I just bought a MYLR and got 3 months free FSD using a referral code. Did my first trip with FSD enabled today, 24 miles/45 minutes of suburbs, city and highway. It was pretty amazing, but not perfect. Some funny hesitations, but the right amount of assertiveness for lane changes, merging, speed control and at stop lights. It was unnerving to let the car move across 3 lanes of lanes in traffic from rightmost lane to a left turn, but FSD handled it well and without being unreasonable with other cars. It‘s not worth $12K or $199/mo to me when the trial ends, but it’s shockingly good."
+"theclutch said:
+Consumer Reports actually ranked GM's the ""best"" since it's truly ""hands free"".  BUT, it's ONLY good for a limited amount of highways pre-marked by GM.  So that's stupid.
+Click to expand...
+I wouldn’t call GM’s Super Cruise stupid.  It does exactly what it’s designed to do...and at least it’s truly “hands free” because do you know what actually is “stupid”?  The fact that Tesla’s system requires you to continually yank the wheel, incessantly, in 2023…like a cave man.  Even our BMW X3 doesn’t require you to yank the wheel…it actually watches your eyes and has a capacitive sensor in the steering wheel."
+"theclutch said:
+My car has been in the shop for like 10 days and counting so far.  See this thread as to why:
+2022 MYP GPS stuck, no cameras, cannot sleep
+So thankfully, I got a loaner.  But the great news is, it's got FSD 11.4.4!  This is the first time I have experienced FSD on top of the regular Autopilot ""autosteer"".  I already really like autosteer, but this FSD really takes it to another level.  Here are my observations:
+Speed and distance control:  just like the autosteer function, this works really well.  You can set it to drive x% over the speed limit or an actual number (like drive 10 mph over whatever the speed limit is).  I set mine to 10% over the speed limit.  So if limit is 30 mph, it would go 33 mph.  But the good news is, you can still press on the accelerator to override that and take your foot off to return to your preset limit.  So by default, you can set it to drive slowly and you can override it whenever you want to and then it will return to that preset.
+Works great day or night.  Works in the rain also but less effectively (asks you to jiggle the steering wheel more often).
+The ""eye in the sky"" - the interior camera looks at a couple of things (see list below I gathered from our forum).   When I played around with it, it actually does work.  I.e. - if I am pretending to be looking at my phone, it asks me to jiggle the steering wheel a lot more often.  Ditto if I'm playing around with the touch screen and looking away.
+BLINDED
+DARK
+EYES_CLOSED
+EYES_DOWN
+EYES_NOMINAL
+EYES_UP
+HEAD_DOWN
+HEAD_TRUNC
+LOOKING_LEFT
+LOOKING_RIGHT
+PHONE_USE
+SUNGLASSES_EYES_LIKELY_NOMINAL
+SUNGLASSES_LIKELY_EYES_DOWN
+Late turn signals:  I wish it would apply the turn signal a little earlier.  Or maybe, there should be an option to make it come sooner and later.
+It actually stops for stop signs; it doesn't crawl through it.  It doesn't know that if you live in the neighborhood, the stop signs are more like ""recommendations"" (just joking).  And while you can slowly roll through it, of course, you still need to keep an eye out for cars, bikes, kids, neighbors and pets.  From a stop light, the acceleration is jerky and not smooth.  Of course, if you put it into ""chill"" mode, it takes care of that.  But the car shouldn't have to treat the go pedal like an on/off switch.  It should gently press on it like a human would.
+Tentative turning into busy streets - it acts like a nervous teenager when turning into busy streets.  Sometimes it jerks the steering wildly when it hesitates when seeing oncoming traffic.
+The cameras all around the car can see a lot more of what's going on that you every could...unless you have eyes on the back of your head and above your ears.  If cars are approaching you at a very high rate of speed from behind, it actually senses this and moves you away from the danger.  This actually seems to work outside of FSD.
+I LOVE that I can initiate the Nav by saying ""Navigate to Starbucks"" and it actually drives me there!  Yes, it asks me to jiggle the steering wheel every so often.  But despite that, it lowers the stress of driving significantly.  I actually love to drive, but I love gadgets even more.  And this stuff is great.
+It's certainly NOT ready for prime time.  BUT, this is the best ""driver assist"" that I've ever driven (better than Mercedes, GM's Super Cruise, Ford's Blue Cruise, the Hyundai variants, Volvo and Audi/VW).  The reason I say it's not ready for prime time is because Tesla advertises it as ""full self driving"".  If they actually called it driver assist, it would STILL be the best compared to anything else out there.  Consumer Reports actually ranked GM's the ""best"" since it's truly ""hands free"".  BUT, it's ONLY good for a limited amount of highways pre-marked by GM.  So that's stupid.  Even the Mercedes one, which is the first ""true"" level 3 is such a joke since there are soooo many pre-requisites: only works during daylight, there must be a car in front of you, clear road markings, clear weather only (no rain), only for highways marked by Mercedes, and get this... only UNDER 40 mph.  That's just ridiculous.  The Tesla works everywhere that I've tested: intown and highway.  Of course, it works much better on the highway.
+So would I pay the $12k for it?  Hell no.  That's a ripoff.  If your car gets totaled, Tesla no longer will let you ""transfer"" that to your new car.  That's ridiculous.  But would I pay the $200/month for it?  I would do that but only when I would need it for long driving or vacation driving.  Otherwise, the standard Autopilot is good enough for day to day driving.
+View attachment 993130
+Click to expand...
+I would rate autopilot as 80% self driving."
+"PABresler said:
+I would rate autopilot as 80% self driving.
+Click to expand...
+More like 10%. I’ve only used FSD four times so far, and it’s astonishing how many decisions the software has to make!"
+"100d said:
+I find the $200 worth it. And I like using it when I’m reading my emails.
+Click to expand...
+I'm of the opinion that it is a lottery ticket.
+If Elon's promise / prediction that FSD will come true and I will be able to send it out to join the robotaxi fleet and earn me money, comes true - then it is worth a lot, maybe $100,000 or more.
+In its present state, it really isn't useful for anything and has the value of a lottery ticket that hasn't been drawn yet.  ($3.00 for a power play.)
+It's an interesting example, because the future value isn't really known, but maximum surely isn't more than $100,000 which is a little low for a lottery ticket and $12,000 or $15,000 is very expensive for a lottery ticket.
+On the other hand, Elon has a history of being late on predictions, but spectacularly over-delivering on eventual results - so much so, that the odds of a winning draw are near 100%, and for all holders of a ticket!  I don't regularly buy lottery tickets, but if you never buy one, you can't possibly win, so if I get an urge, I'll get one every few years and this is mine for the 2020's."
+"legendsk said:
+I'm of the opinion that it is a lottery ticket.
+If Elon's promise / prediction that FSD will come true and I will be able to send it out to join the robotaxi fleet and earn me money, comes true - then it is worth a lot, maybe $100,000 or more.
+In its present state, it really isn't useful for anything and has the value of a lottery ticket that hasn't been drawn yet.  ($3.00 for a power play.)
+It's an interesting example, because the future value isn't really known, but maximum surely isn't more than $100,000 which is a little low for a lottery ticket and $12,000 or $15,000 is very expensive for a lottery ticket.
+On the other hand, Elon has a history of being late on predictions, but spectacularly over-delivering on eventual results - so much so, that the odds of a winning draw are near 100%, and for all holders of a ticket!  I don't regularly buy lottery tickets, but if you never buy one, you can't possibly win, so if I get an urge, I'll get one every few years and this is mine for the 2020's.
+Click to expand...
+So…you’re paying the monthly fee. Or you’re not?"
+"100d said:
+So…you’re paying the monthly fee. Or you’re not?
+Click to expand...
+Of course not.  I bought it as a lottery ticket.  Currently I believe it's not worth much at all, because it really isn't usable and each of the last 5 or so updates have made it worse, not better.
+Once it works, and I still believe it will, then it will be well worth more than $200 per month, but there is no guarantee that it will still be available at $200 per month.
+So presently I would not give $1 per month for it, because at the end of the month, I haven't gotten $1 worth of value for it and it expired at the end of the month and has no future value.
+If there were a guarantee that if you subscribe for $200 per month now, the price is locked in and it will be available permanently at that price, then I would buy it.  But if you don't subscribe now, then there is no guarantee the you can in the future?  Buying it for $15,000 is a hedge in case the subscription price could be $5,000 or ??? per month in the future.
+And there is the interesting possible future that Optimus will surely be able to drive it? But is that without FSD?  Maybe it will also be an Optimus option, like it is on a car of truck. I will likely want an Optimus, so. . . . .?"
+"Does Tesla have the reputation of raising monthly fees to current subscribers? I’m kind of counting on that not happening.
+I have found it useful for the few times I have used it although it is nnot perfect and phantom stops is true."

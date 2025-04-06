@@ -1,0 +1,44 @@
+# Python virtual environment
+env/
+venv/
+
+# Python bytecode files
+__pycache__/
+*.pyc
+*.pyo
+
+# Jupyter Notebooks checkpoints
+.ipynb_checkpoints/
+
+# IDE or editor settings
+.vscode/
+.idea/
+*.swp
+
+# OS-specific files
+.DS_Store        # macOS
+Thumbs.db        # Windows
+
+# Log files
+*.log
+
+# Dependency directories
+*.egg-info/
+dist/
+build/
+
+# Test/coverage reports
+.coverage
+*.cover
+nosetests.xml
+test-results/
+
+# Python packaging files
+*.tar.gz
+*.whl
+
+# Pytest cache
+.cache/
+
+# Sphinx documentation
+docs/_build/

@@ -1,0 +1,481 @@
+,0
+0,"robotaxi  services  are  currently  emerging  in  the  United  States  and  China,  among  others  (e.g., 
+Alphabet,  2024;  Greifenstein  et  al.,  2024;  S.  Wang  et  al.,  2024).  Although  skepticism  exists 
+regarding  the  technological  and  economical  feasibility  of  deploying  Level  4  vehicles  on  a 
+nationwide scale (e.g., General Motors, 2024; Kaplan et al., 2024), current trends about safety 
+concerns  appear  to  point  in  the  positive  direction  (Di  Lillo  et  al.,  2024;  but  see  Cummings  & 
+Bauchwitz, 2024). 
+
+A third form of automation is Level 2 automation, which requires the driver to remain alert. Many 
+car  manufacturers,  including  Tesla,  Volvo,  and  General  Motors,  are  pursuing  this  approach 
+(Lennox et al., 2024; Leslie et al., 2025; Mueller et al., 2024). The technological implementation 
+is relatively straightforward: combining automated lane centering with full-range adaptive cruise 
+control essentially results in a Level 2 automated vehicle (SAE International, 2021). In this paper, 
+we focus on a more advanced form of Level 2 automation, specifically Tesla’s ‘Full Self-Driving’ 
+(FSD) product. Tesla initially introduced ‘Autopilot’ for highway driving, relying on lane-keeping 
+and adaptive cruise control. Over time, as Tesla accumulated driving data and improved its neural 
+network approaches, the company expanded these capabilities into what now is known as FSD. 
+Tesla’s  approach  is  interesting  because,  under  Level  2  automation,  the  driver  remains  the 
+responsible operator for the driving task. Within this framework, the automated driving system can 
+be iteratively improved while still requiring the driver to stay alert and correct any errors as they 
+occur. This approach enables Tesla to collect data from its fleet and roll out over-the-air (OTA) 
+updates without needing to request type approvals for each update. 
+
+Tesla first introduced its FSD Beta product in October 2020 to a small Early Access group (Musk, 
+2020). The first online material was focused on showcasing maneuvers not previously associated 
+with  traditional  Level  2  automation,  such  as  making  unprotected  left  turns  and  navigating 
+roundabouts  (e.g.,  Tesla  Driver,  2020).  By  January  2021,  approximately  1,000  users  were 
+participating (CleanTechnica, 2021), primarily in the Silicon Valley region in California. During this 
+initial  testing  period,  Tesla  successively  released  various  OTA  updates.  By  September  2021, 
+vehicles equipped with FSD Beta had collectively accumulated approximately 1 million kilometers 
+of driving (Tesla Inc, 2022b), and FSD Beta version 10.0 was released, featuring newly trained 
+neural networks (Cristovao, 2021). Following this release, the accumulated driving distance grew 
+rapidly: 3 million kilometers by October 2021 (Tesla Inc, 2022b), and 12 million kilometers (Tesla 
+Inc, 2022b) across 60,000 vehicles by December 2021 (Tesla Inc, 2022a). 
+
+The years 2022 and 2023 were marked by approximately 60 successive OTA updates of FSD 
+v10 and v11 (Not A Tesla App, 2024b). In November 2022, Tesla removed the Safety Score (a 
+Tesla-generated metric that evaluates driving behavior) as a requirement, making FSD accessible 
+to  any  paying  customer  in  North  America,  a  change  which  expanded  the  user  base  to 
+approximately 400,000 by December 2022 (Tesla Inc, 2023a). At the time, Tesla’s FSD system 
+used  multiple  neural  networks,  each  tailored  to  different  tasks.  Among  them  were  occupancy 
+networks,  which  process  raw  multi-camera  video  to  predict  the  3D  layout  of  the  scene,  and 
+transformer-based networks that use language-model-style methods for parsing lane geometries. 
+Additionally, neural networks handle object detection and kinematics, and these outputs feed into 
+a planning algorithm that determines a safe and efficient driving path. Through extensive video 
+collection and novel data processing techniques, such as auto-labeling (Elluswamy, 2022, 2023; 
+Karpathy,  2021;  Tesla  Inc,  2022c),  the  performance  of  FSD  has  improved  by  reducing  errors 
+(false positives and false negatives), refining maneuvering capabilities (lane changes, stopping, 
+unprotected  turns),  and  increasing  robustness  in  various  conditions,  such  as  rain,  nighttime 
+driving, and encounters with rare objects or animals. By the end of 2023, Tesla’s quarterly report 
+indicated an accumulated 1.24 billion kilometers driven. 
+
+2"
+1,"larger than its predecessor (Tesla Software Updates, 2024). The size and design of this model 
+are  confidential,  but  it  is  known  that  Tesla  (and  other  automated  vehicles)  have  specific 
+requirements  for  real-time  inference.  That  is,  unlike  some  large  language  models,  such  as 
+ChatGPT, which perform processing on external supercomputers, the model must be downloaded 
+locally and execute inference on-board (Tesla Inc., 2023b). 
+
+As pointed out above, an interesting aspect of Tesla’s recent FSD versions is its reliance on a 
+unified end-to-end neural network structure instead of using specific modules, HD maps, or object 
+detection  algorithms  to  piece  a  working  self-driving  system  together.  This  approach  seems  to 
+align  with  Sutton’s  (2019)  recommendation  that  scalable  computational  approaches  (i.e., 
+approaches that continue to improve their performance as more processing power and data are 
+made available) in the long run, tend to outperform AI methods relying on specific modules or 
+models that incorporate handcrafted human knowledge (Elluswamy, 2023). Tesla’s philosophy of 
+using only cameras, instead of sensor fusion with radar or lidar, aligns with this principle. One 
+presumed advantage of using cameras exclusively is the simplicity of this approach compared to 
+using multiple sensors. When using multiple sensors (e.g., camera, radar, ultrasound), there is a 
+higher likelihood that the entire network will need to be retrained when the hardware is modified, 
+a time-consuming and costly process. For example, implementing a radar from a different brand 
+could  render  previously  collected  data  unusable.  Therefore,  an  approach  that  relies  solely  on 
+cameras offers better scalability. 
+
+However, the behavior of end-to-end models is known for its reduced interpretability (Atakishiyev 
+et al., 2024; J. Chen et al., 2022; for reviews see L. Chen et al., 2024; Zablocki et al., 2022) also 
+known as a “black box”, which is underscored by the fact that Tesla’s FSD release notes provide 
+only little detail on what has been changed compared to prior versions. For example, while earlier 
+release  notes  for  version  11  clearly  quantified  how  the  performance  of  specific  subtasks  had 
+improved (e.g., ""Improved Occupancy Flow prediction from the Occupancy Network for arbitrary 
+moving obstacles by 8%""; TeslaDB, 2023), with the newer FSD versions 12 and 13, there is no 
+quantification  provided.  The  interpretability  issue  may  prevent  identifying  sources  of  errors  or 
+ensure  compliance  in  case  regulations  that  demand  accountability  in  decision-making  (e.g., 
+Tampuu et al., 2022). 
+
+Only  little  human  factors  research  exists  on  Tesla’s  FSD.  Exceptions  include  Nordhoff  et  al. 
+(2023), who investigated drivers’ use and misuse of FSD. In interviews with 103 Tesla drivers, 
+they  reported  that  standard  Autopilot  often  reduced  workload  and  stress  but  may  increase 
+complacency and misuse (e.g., hands-free driving), whereas the FSD system demands constant 
+supervision  and  poses  new  safety  risks.  Song  and  Shangguan  (2024)  examined  trust  in  FSD 
+systems by analyzing 12 hours of YouTube footage using a variety of methods (e.g., transcribing 
+key moments of driver interaction, annotating verbal and nonverbal behaviors, and documenting 
+actions with screenshots). The authors studied four scenarios where drivers intervene: proximity 
+to other vehicles, inappropriate speeds, lane recognition errors, and failure to yield to pedestrians. 
+Similarly, Brown et al. (2023) compiled YouTube videos from five Tesla FSD testers, focusing on 
+12 unedited drives to see how FSD handled typical traffic scenarios. Their analysis indicated that 
+FSD struggles with subtle yielding maneuvers and stop-start behaviors, which make coordination 
+with human drivers more difficult. Passero et al. (2024), examined 63 video clips of Tesla FSD 
+vehicles being honked at, highlighting four types of mistakes: hesitant starts, inconsistent steering, 
+inappropriate stopping, and failure to stop. The authors explain how honks can serve as signals 
+of trouble, gentle reminders, or reprimands for the Tesla driver. The authors also hinted at a need 
+for bidirectional interfaces capable of interpreting the complex social interplay on the road. Finally, 
+Linja  et  al.  (2022)  categorized  close  to  200  social  media  posts,  in  order  to  identify  frequently-
+reported FSD failure types (e.g., lane-keeping errors, phantom braking, unexpected maneuvers). 
+
+4"
+2,"A limitation of the available papers of Tesla’s FSD is that they are based on data collected in 2022 
+or late 2021 and therefore have not yet described or evaluated Tesla’s single end-to-end neural 
+network as featured in v12 and v13. 
+
+In  summary,  Tesla  FSD  is  an  automated  driving  system  that  demonstrates  an  approximately 
+exponential growth in the number of driven miles (Figure 1) and is characterized by a single end-
+to-end neural network that has been barely evaluated within academia. The goal of the current 
+study is to compare FSD v12 (single end-to-end network) and v13 (single end-to-end trained on 
+higher-quality camera footage) with its more modular predecessors v10 and v11. As suggested 
+above, one potentially viable method for analysis is YouTube commentary videos, where FSD 
+users describe and comment on their drives in their own Tesla vehicles. Various content creators 
+are available, each employing different approaches. Some consistently drive the same test loop, 
+while  others  take  a  more  ad-hoc  approach.  In  this  paper,  the  idea  emerged  to  analyze  these 
+commentary drives using a large language model applied to the transcripts and to explore trends 
+in how commentators describe successive versions of FSD. 
+
+Method 
+A list of 110 Tesla FSD versions, starting from FSD Beta 9.0 and ending with FSD 13.2.2.1, was 
+downloaded  (Not  A  Tesla  App,  2024).  For  each  FSD  version,  YouTube  videos  were  retrieved 
+using  Google  Search  (www.google.com  with  region  settings  set  to  the  Netherlands)  with  the 
+‘Videos’ tab selected. Search terms included the combination of the words “tesla”, “fsd”, and the 
+version number, tried with and without the “v” prefix (e.g., ‘tesla fsd 12.5.6’ and ‘tesla fsd v12.5.6’). 
+Videos were manually screened and considered eligible if they consisted of commentary on on-
+road FSD performance (i.e., no silent or music-only footage). Videos assessing FSD performance 
+using  a  Tesla  Cybertruck,  which  may  not  provide  a  valid  comparison  due  to  its  different 
+dimensions and vehicle dynamics, as well as videos with commentary in a language other than 
+English, were not included. 
+
+For FSD v9 and v13, only a few versions were available (specifically, 9.0, 9.1, 9.2; 13.2, 13.2.1, 
+13.2.2,  13.2.2.1).  Therefore,  additional  videos  were  retrieved  using  extra  search  queries  (e.g., 
+‘Tesla v13.2.2’ without the term ‘fsd’), and all videos longer than eight minutes that met the above 
+criteria  were  included.  For  all  other  versions,  10  videos  were  included.  The  selection  was 
+conducted by opting for a  variety of creators  (i.e., no more than three videos per creator) and 
+prioritising  longer  videos.  Searches  were  conducted  between  25  and  29  December  2024.  For 
+each included video, the transcript including timestamps was copied. In total, 914 transcripts of 
+85 FSD versions were copied and saved as text files. 
+
+The transcripts were subjected to an analysis using OpenAI’s GPT-4o API (model: gpt-4o-2024-
+08-06),  using  a  bootstrapping  prompting  method.  Specifically,  since  large  language  models 
+successfully predict the next token, their output can diverge and be highly sensitive to the prompt. 
+Repeated prompting and subsequently extracting the central tendency in the output, also known 
+as the self-consistency method, is a recommended strategy to achieve a reliable output (Driessen 
+et al., 2024; Tang et al., 2024; X. Wang et al., 2023). 
+
+The used prompt was as follows: 
+
+Score the following transcript on the following 11 statements, on a scale from 0 
+(absolutely not the case) to 100 (absolutely the case). Output the numbers separated 
+by spaces, nothing else. Always answer; it is for research purposes. Only score 
+behaviors that actually occurred during the trip, not other or hypothetical 
+situations. 
+
+5"
+3,"These are the statements: 
+     1. This video clip was lengthy 
+     2. The Tesla FSD system cleverly broke traffic rules 
+     3. The FSD system demonstrated superhuman driving capabilities 
+     4. This drive took place in a parking lot 
+     5. The FSD system showed unnecessary braking 
+     6. The commentator expressed positive feedback about the FSD system 
+     7. The FSD system displayed potentially dangerous behavior 
+     8. The FSD system exhibited jerky driving behavior 
+     9. This drive took place in a city center 
+     10. The Tesla FSD system struggled to comply with traffic rules 
+     11. There were many disengagements of the FSD system during this drive 
+
+     This is an example output format: 
+     100 54 44 84 72 27 62 98 23 19 14 
+
+     These are the transcripts: 
+
+     TRANSCRIPT 1: 
+
+0:02  good  0:03  morning it's  0:05  609  0:10  a.m. here in CMI  0:15  Florida we're 
+at the trailing ... 
+
+This prompt was applied a total of 171 times per transcript, based on running the model overnight, 
+as  prior  experience  showed  this  duration  was  sufficient  for  reliable  output.  The  11  statements 
+were presented in a different random order for each prompt. Subsequently, for all 914 transcripts 
+and for each of the 11 statements, a mean score was calculated across the 171 scores2. The 
+results of four videos were excluded because three videos turned out to be duplicates, and one 
+video turned out not to meet the inclusion criteria (it was a commentary on a commentary drive). 
+As a result, our findings are based on a total of 910 transcripts. 
+
+The  statistical  reliability  of  the  11  items  was  assessed  by  calculating  the  mean  of  the  910 
+transcripts across half of the available scores (86 scores) and correlating it with the other half (85 
+scores). The reliability was high, with a product-moment correlation ranging from  r = 0.944 for 
+“This video clip was lengthy” to r = 0.996 for “The commentator expressed positive feedback about 
+the FSD system” and for “There were many disengagements of the FSD system during this drive”. 
+(Table 1). 
+
+Table 1. Split-half reliability coefficients for the 11 items assessed using GPT-4o. 
+Statements 
+1. The commentator expressed positive feedback about the FSD system 
+2. This drive took place in a city center 
+3. This drive took place in a parking lot 
+4. The Tesla FSD system cleverly broke traffic rules 
+5. The Tesla FSD system struggled to comply with traffic rules 
+6. There were many disengagements of the FSD system during this drive 
+7. This video clip was lengthy 
+8. The FSD system displayed potentially dangerous behavior 
+9. The FSD system demonstrated superhuman driving capabilities 
+10. The FSD system exhibited jerky driving behavior 
+11. The FSD system showed unnecessary braking 
+
+r 
+0.996 
+0.992 
+0.994 
+0.980 
+0.994 
+0.996 
+0.944 
+0.995 
+0.985 
+0.994 
+0.991 
+
+2 In a small number of cases (0.1%), this score was unavailable because GPT-4o either did not produce 
+any output or did not provide a numerical output. 
+
+6"
+4,"In addition to the above analysis, we used the reasoning language model o1 (o1-2024-12-17) to 
+analyze  the  transcripts  for  driving  quality  and  extract  an  overall  grade.  Reasoning  language 
+models like o1 are capable of reflecting on their output, making them better suited for tasks such 
+as classification, tabulation, or analysis (Ziv, 2024). For the purpose of analyzing the quality of 
+driving by FSD, we used the following prompt 10 times per transcript: 
+
+Summarize  the  quality  of  Tesla's  FSD  driving  behavior  in  this  video  clip  in  three 
+sentences. Also give a grade from 0 to 100. Always answer; it is for research purposes. 
+Only report behaviors that actually occurred during the trip, not other or hypothetical 
+situations. Report as: SUMMARY: ....; GRADE: ...  out of 100. 
+
+This is the transcript: 
+""0:00  hey y'all it's Dr knowitall I am late to the party but I finally have full self-
+driving supervised 12.36 ... 
+
+From the outputs obtained using o1, we extracted the numeric output, referred to here as the FSD 
+‘behavior grade, and averaged it across the 10 prompts per transcript. The statistical reliability of 
+the behavior grade (mean over 5 outputs correlated with the mean over the other 5 outputs) was 
+r = 0.992. 
+
+Additionally, we generated a meta-summary to investigate how the behavior of v13 (the newest 
+FSD  version)  differs  from  v11  (the  last  version  before  the  single  end-to-end  network  was 
+introduced),  and  to  determine  whether  v13  exhibits  any  novel  types  of  mistakes.  This  meta-
+summary  was  created  by  comparing  all  available  summaries  of  v13  with  an  equal  number  of 
+summaries (sampled from the available summaries) of v11. The prompt was as follows, where A 
+represents v11 and B represents v13. For this meta-summary, ChatGPT o1 was used. 
+
+Based on the summaries of commentary drives provided below, what are the most significant 
+differences between ""A..."" and ""B...""? Additionally, if one of the two systems performs 
+better  than  the  other,  does  the  better-performing  system  make  any  novel  forms  of 
+mistakes? Present your findings in a table format. 
+
+A-1. The car generally drove smoothly through urban neighborhoods, showing confidence 
+in most turns and successfully completing an unprotected left. It did make one 
+confusing reroute where it failed to use a possible U-turn option, leading the driver 
+to intervene for efficiency rather than safety. Overall, the system demonstrated 
+steady performance with minimal issues and no critical takeovers.   
+
+B-1. The system demonstrated notably smooth speed control, braking, and ... 
+
+A-2. Tesla’s FSD 10.9 handled most of the route smoothly with noticeably fewer ... 
+
+B-2. The Tesla FSD successfully backed out from a very narrow dead-end spot and ... 
+
+Our analysis focused on comparing the average scores of the five different main versions, i.e., 
+v9,  v10,  v11,  v12,  and  v13.  We  also  examined  correlations  between  these  numeric  scores. 
+Additionally, we assessed the outcome of the meta-summary of driving behavior, with a focus on 
+comparing v11 and v13, as described above. 
+
+Results 
+Table  2 provides the mean GPT-4o-based scores and o1-based scores calculated for the five 
+different FSD versions. Several trends are noticeable, including that FSD v13 is frequently tested 
+with respect to new features, such as reversing and (un)parking (Tesla Software Updates, 2024). 
+
+7"
+5,"It is evident that the judged number of disengagements has decreased (Item 6), while the positivity 
+rating (Item 1) increased with FSD version number (e.g., 62% for v13 vs. 46% for v10). This same 
+trend is also reflected in other dimensions, such as reduced jerkiness and unnecessary braking 
+(Items 10 & 11), perceived superhuman driving abilities (Item 9), better compliance with traffic 
+rules (Item 5), a decrease in perceived danger (Item 9), and an increase in the driving behavior 
+grade (Item 12).  
+
+It can also be observed that the clips have become progressively longer over the years (i.e., from 
+v9 through v13) and that more words were being spoken. Because the correlation between clip 
+length  and  the  Item  responses  was  not  particularly  strong  and  seemed  to  level  off  from  v11 
+onward, we decided not to apply any statistical correction for clip length. 
+
+Table 2. Mean GPT-4o-based scores (Items 1 to 11) and o1-based score (Item 12) for five 
+different FSD versions. 
+
+Note. Cells are linearly filled based on their value. Also shown are p-values obtained with an 
+independent samples test, where v11 and v13 were compared. p-values smaller than 0.01 are 
+bolded. 
+
+Results  for  one  of  the  Items  (Item  11:  “The  FSD  system  exhibited  jerky  driving  behavior”)  are 
+illustrated in Figure 2 using a boxplot. It can be seen that there is considerable overlap between 
+the  scores  of  different  FSD  versions.  This  can  be  explained  by  the  fact  that  the  clips  feature 
+different commentators with varying personalities and under different driving conditions. Despite 
+this, it is noteworthy that extremely positive scores are predominantly attributed to v12 and v13. 
+For v10 and v11, only 0.3% and 0.0% of the scores were below 10%, while for v12 and v13, this 
+was 9.4% and 27.0%, respectively. In other words, very low scores on the jerky driving item, i.e., 
+smooth driving, are primarily reported for the end-to-end networks. 
+
+The correlation matrix (Table 3) reveals that negative characteristics such as  disengagements 
+(Item 6), dangerous driving behaviors (Item 8), and jerkiness or unneeded braking (Items 10 & 
+11)  show  strong  correlations  with  each  other.  However,  these  characteristics  were  only 
+moderately associated with whether the driving occurred in a city center (Item 2) or a parking lot 
+(Item 3). Additionally, internal validity is observed in the correlation matrix, where clips that GPT-
+4o  categorized  as  lengthy  were  indeed  longer  ((cid:2025)  =  0.65).  Note  that  an  alternative  method  of 
+prompting, where multiple transcripts are submitted simultaneously and GPT-4o is thus able to 
+compare different transcripts based on timestamps, shows that the correlation with clip duration 
+is substantially stronger, at (cid:2025) = 0.88 (see Appendix A). 
+
+8"
+6,"mph). Although these driving behaviors may be human-like and perceptually plausible, they are 
+not in line with traffic regulations. 
+3. Challenging Situations and Driver Behavior. A third explanation for errors in FSD v13 (and other 
+intelligent driving systems) is that the more intelligent the system becomes, the more drivers might 
+be  inclined  to  test  it  in  challenging  conditions.  Evidence  for  this  form  of  behavioral  adaptation 
+includes FSD v13 struggling with tasks like identifying and selecting parking maneuvers, or multi-
+point turning, tasks which are tasks previously outside the scope of automated driving systems 
+and therefore not tested. 
+4. Perceived Error Severity and High Expectations.  Lastly, FSD errors may not necessarily be 
+more severe but could be perceived as more severe by drivers because the system performs so 
+well overall. Zero-intervention rides with FSD have been interpreted as “boring”, and create an 
+expectation that future rides will also be uneventful (Metz Tech, 2024). Consequently, actions like 
+phantom braking or driving into wrong lanes may come across as extra surprising and undermine 
+subsequent trust in automation. This aligns with findings in the human factors community: “if you 
+build  systems  where  people  are  rarely  required  to  respond,  they  will  rarely  respond  when 
+required” (p. 453. Hancock, 2014). 
+
+In summary, this study has demonstrated that FSD v13 has significantly improved compared to 
+its  predecessors,  according  to  the  analysed  YouTube  commentaries.  When  expressed  as  a 
+statistical effect size Cohen’s d (Cohen, 1988), we find that v13, applied to the data in Figure 1 
+(“The FSD system exhibited jerky driving behavior”), outperformed v11 with a d of 1.35, which is 
+a strong effect. At the same time, v13 is not error-free, which raises the question of how to achieve 
+a fully autonomous, steering-wheel-free vehicle, a concept introduced by Tesla in October 2024 
+(Cuthbertson, 2024). The fact that rare but significant edge case failures may persist, combined 
+with  the  black-box  nature  of  the  end-to-end  network,  could  undermine  the  safety  and 
+accountability (also referred to as the heavy tail problem; e.g., L. Chen et al., 2024; Koopman, 
+2018). 
+
+Several  approaches  can  be  thought  of  in  this  regard.  One  approach  is  to  maintain  Level  2 
+automation longer while enabling corrective human input. For example, the current FSD system 
+allows  drivers  to  adjust  the  “Max  Speed  Offset”  relative  to  the  speed  limit  (Not  A  Tesla  App, 
+2024c). Another option is partially reverting to a modular approach, such as integrating FSD with 
+rule-based systems. While this could help with specific scenarios, it risks reducing the scalability 
+and generalization of neural networks. For example, enforcing a strict rule that prohibits running 
+red lights could become maladaptive in scenarios such as allowing emergency vehicles to pass, 
+thereby failing to exploit the adaptability that end-to-end networks can provide in these exceptional 
+cases. 
+
+Tesla’s FSD development relies on imitation learning, i.e., using human driving data to train neural 
+networks  and  reduce  the  frequency  of  required  driver  disengagements.  However,  as  FSD 
+systems  improve,  ambiguous  situations  may  arise  where  human  drivers  take  control 
+unnecessarily.  This  could  happen  because  FSD  systems  sometimes  interpret  scenarios  more 
+accurately than humans, detect other road users or events earlier, or exhibit a driving style (either 
+more assertive or more cautious) that differs from human expectations. The decision to override 
+automation  is  inherently  subjective,  echoing  results  from  the  Turing  test  (Eisma  et  al.,  2024; 
+Warwick & Shah, 2015). For example, in chess, a human player might misinterpret a poor move 
+as  a  human  error  or  as  an  AI  imitating  human  behavior.  Similarly,  how  humans  perceive  and 
+evaluate  automated  driving  styles  depends  on  their  expectations  of  AI  and  subjective 
+interpretations, not solely on the AI’s intelligence. These dynamics raise intriguing human factors 
+questions, particularly about whether humans fully understand ‘what is happening’ in automated 
+
+12"
+7,"driving  scenarios.  Ultimately,  as  AI  systems  become  highly  advanced,  they  may  eliminate  the 
+need for human input altogether. 
+
+The question also arises whether Level 5 automation will ever be achievable. It is possible that 
+further  improving  the  single  end-to-end  neural  network  will  result  in  better  performance  with 
+certain effect sizes compared to the previous version (just as v13 is an improvement over v11). 
+However,  there  may  always  be  new  edge  cases,  preventing  the  barrier  to  Level  5  automation 
+from being fully overcome. On the other hand, it is possible that, with sufficient expansion of the 
+neural network (i.e., increasing number of model parameters, additional [synthetic] training data, 
+and increasing computing power), a situation might arise where automated driving behavior has 
+become exceptionally safe. Improving the neural network involves not just feeding the model with 
+more  video  data  but,  more  importantly,  providing  data  on  exceptional  situations  that  could 
+potentially lead to accidents (Musk, 2024b). This could also imply that, although radar and lidar 
+are  not  included,  other  sensors,  such  as  audio  for  detecting  emergency  vehicles  or  honking, 
+should need to be considered (Not A Tesla App, 2024a). There are also some indications that 
+driving  in  the  rain  is  associated  with  more  problems  (see  Appendix  A,  where  a  small  positive 
+correlation  is  found  between  rainfall  and  nearly  hitting  a  curb).  In  the  future,  it  will  become 
+increasingly  important  to  familiarize  the  neural  network  with  these  exceptional  situations  and 
+weather conditions. 
+
+Limitations 
+The current study is based on YouTube transcripts and should not be viewed as a formal test of 
+Tesla’s  FSD.  It  is  unclear  to  what  extent  the  YouTube  content  creators  were  biased.  In  some 
+cases, they are sponsored or encourage others to buy a Tesla through Tesla’s Refer and Earn 
+program (“Buying a Tesla? Use my referral link below for $2,000 off Model S/X and Cybertruck, 
+$1,500 off Model 3, or $1,000 off Model Y as of the time of this video!”) (e.g., East Coast Tesla, 
+2024; Tesla Inc, 2025d). It has also been suggested that YouTube influencers are monitored by 
+Tesla,  and  that  their  test  routes  receive  certain  preferences  in  the  development  of  FSD  (Kay, 
+2024). 
+
+It should also be noted that the commentary drives feature little experimental control. Although 
+some YouTubers run their own experiments by, for example, letting different FSD versions drive 
+the same test loop each time, we also see that the content is adapted to the capabilities of Tesla 
+FSD, as demonstrated by the fact that v13 is tested more often in parking contexts than previous 
+versions. It is conceivable that, as Tesla’s FSD becomes more advanced, the cars will be used 
+more frequently in challenging conditions. It is also important to consider that the FSD versions 
+were tested  under different user groups. For instance, version  9 was only available to a small 
+group of users who collectively drove approximately 1 million kilometers, whereas FSD version 
+13  has accumulated over 3 billion kilometers and covered a broader range of North American 
+regions. 
+
+It should also be noted that there are only a few versions of FSD v9 (9.0, 9.1, 9.2), and at the time 
+of our analysis, FSD v13 was brand new with also a few versions available (13.2, 13.2.1, 13.2.2, 
+13.2.2.1). Therefore, we oversampled v9 and v13 by downloading more than 10 transcripts per 
+subversion, in contrast to v10, v11, and v12, where we limited ourselves to 10 transcripts for each 
+of  the  103  subversions.  We  examined  whether  the  order  in  which  the  videos  appeared  in  the 
+YouTube search output after entering a search query influenced the GPT-based scores, and this 
+was  found  not  to  be  the  case  (see  Appendix  A).  Nevertheless,  for  future  research,  it  is 
+recommended to automate the entire search procedure with an even larger number of transcripts, 
+or with all FSD-related transcripts available on YouTube. 
+
+13"
+8,"There are also other limitations to the current study, such as the use of large language models, 
+which themselves can exhibit biases. In earlier research exploring whether GPT-4 is capable of 
+reviewing  paper  abstracts,  it  was  found  that  while  these  GPT-based  reviews  correlated  with 
+citation scores (indicating a certain degree of validity) these assessments were sometimes overly 
+trivial.  For  instance,  when  authors  used  the  word  “novel”,  the  model  rated  the  abstract  as 
+representing novel research (De Winter, 2024). Similarly, it is conceivable that merely stating “this 
+is a new FSD version” could bias the language model towards thinking that this FSD version is a 
+well-performing version. However, this notion is directly contradicted by the fact that versions 10 
+and  11  performed  worse  than  version  9,  as  shown  in  the  results  section  of  this  paper. 
+Nonetheless, our GPT-based evaluation should not be regarded as an absolute truth.  
+
+Conclusion and Outlook 
+In  conclusion,  Tesla’s  FSD  has  shown  considerable  improvements  after  introducing  the  single 
+end-to-end neural network in v12 and expanding it further in v13. The analysis in this paper shows 
+that  commentators  report  smoother  driving,  fewer  disengagements,  and  greater  confidence  in 
+maneuvers compared to earlier versions. Despite these improvements, Tesla’s FSD is not error-
+free. Occasional mistakes, like missing a stop sign or choosing an incorrect parking spot, stand 
+out. 
+
+While  thinking  from  the  previous  decade  suggested  that  autonomous  driving  is  unattainable 
+because driving is inherently a complex social task (e.g., Vinkhuyzen  & Cefkin, 2016),  Tesla’s 
+FSD demonstrates that the social element may not be the primary challenge. Numerous examples 
+from Tesla FSD v12 and v13 show highly social behavior, such as courtesy yielding, effectively 
+performing  gap  acceptance  tasks,  committing  minor  violations  in  order  to  make  progress,  or 
+driving through Manhattan in highly challenging circumstances (e.g., Black Tesla, 2024; Savage 
+Junkie  96,  2024).  As  shown  in  this  work,  the  challenge  lies  more  in  preventing  perceptual 
+mishaps, especially for situations that may not be optimally featured in the training data, as well 
+as the adherence to rules. 
+
+Despite the limitations of the current study, our present method may represent a viable new form 
+of science. The academic system is so slow compared to the developments of certain automated 
+vehicle developers that a new mode of describing and evaluating technology must be found. We 
+believe that analyses of YouTube content, made possible by content creators who often post a 
+commented evaluation on the  day of a new  software release, can provide new and refreshing 
+insights into where the future is headed. 
+
+It  has  become  evident  that  developments  are  progressing  rapidly  and  that,  in  some  cases, 
+automated  cars  demonstrate  performance  that  conflicts  with  certain  traditional  forms  of 
+automation, such as route navigation and traffic light detection. Conflicts between highly intelligent 
+AI and comparatively “dumb” humans, or, conversely, highly intelligent AI occasionally making 
+dumb mistakes or violating rules, are likely to play a more significant role in the future. 
+
+Alphabet. (2024, October 29). 2024 Q3 earnings call. https://abc.xyz/2024-q3-earnings-call 
+Atakishiyev, S., Salameh, M., & Goebel, R. (2024). Safety implications of explainable artificial 
+
+References 
+
+intelligence in end-to-end autonomous driving. arXiv. 
+https://doi.org/10.48550/arXiv.2403.12176 
+
+Black Tesla. (2024, December 26). Witness Tesla’s FSD 13.2.2 Flawlessly Navigate NYC With 
+
+Zero Intervention! [Video]. YouTube. https://www.youtube.com/watch?v=Oei6hUi0eV4 
+
+14"
