@@ -1,5 +1,10 @@
 # Sentiment Analysis with a Custom-Built Dataset from Web, Audio & Documents
 
+## Youtube Demo:
+
+[![Watch the Demo](https://github.com/user-attachments/assets/4466de30-e0d8-46e9-83d6-1a75c69022b1)](https://youtu.be/jcQjmHJKFs8)
+
+
 ## 1. Project Overview
 
 This project demonstrates an **end-to-end sentiment analysis pipeline**, focusing not just on model training, but also **data engineering, preprocessing, feature extraction**, and **evaluation**. We built a **custom dataset** by collecting data from four diverse sources:
